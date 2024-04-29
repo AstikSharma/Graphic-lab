@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+# Graphic Lab
+
+Graphic Lab is a collaborative graphic design tool built using Next.js, TypeScript, Liveblocks, and Convex Database. It allows users to create and collaborate on graphic designs in real-time, leveraging the power of Liveblocks for real-time collaboration and Convex Database for data storage.
+
+## Tech Stack
+
+- **Next.js**: Next.js is a React framework for building server-side rendered and statically generated web applications.
+- **TypeScript**: TypeScript is a superset of JavaScript that adds static types to the language, providing improved developer experience and code quality.
+- **Liveblocks**: Liveblocks is a real-time collaboration platform that enables developers to build collaborative applications easily.
+- **Convex Database**: Convex Database is a cloud-native database designed specifically for serverless applications, providing a scalable and flexible data storage solution.
+
+## Features
+
+- **Real-time collaboration**: Multiple users can collaborate on graphic designs simultaneously, with changes reflected instantly for all users.
+- **Graphic design tools**: Provides a set of tools for creating and editing graphic designs, such as shapes, text, and drawing tools.
+- **Persistence**: Designs are saved automatically and can be accessed later, allowing users to pick up where they left off.
 
 ## Getting Started
 
-First, run the development server:
+To get started with Graphic Lab, follow these steps:
 
-```bash
+1. **Clone the repository**:
+
+
+git clone <repository-url>
+
+
+2. **Install dependencies**:
+
+
+cd graphic-lab
+npm install
+
+
+3. **Set up Clerk and Convex Keys**:
+   Before running the application, make sure to obtain API keys for Clerk and Convex Database and set them up in your environment variables.
+
+4. **Run the application**:
+
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The application should now be running locally on [http://localhost:3000](http://localhost:3000).
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contributing
 
-## Learn More
+Contributions are welcome! If you'd like to contribute to Graphic Lab, please fork the repository, make your changes, and submit a pull request.
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
