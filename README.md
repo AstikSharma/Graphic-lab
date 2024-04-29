@@ -23,28 +23,42 @@ The platform provides a comprehensive set of tools for creating and editing grap
 ### Persistence
 Designs created in Graphic Lab are automatically saved and persisted in the Convex Database. This ensures that users can access their work at any time and pick up right where they left off, without worrying about losing their progress.
 
+### Images
+Here are some screenshots of Graphic Lab in action:
+
+- **UI**: ![UI Screenshot](![Screenshot 2024-04-29 200926](https://github.com/AstikSharma/Graphic-lab/assets/132981717/4245bbb5-74ee-4c42-ab16-89a8f2c397d7)
+)
+- **Signup Page**: ![Authentication Page Screenshot](![Screenshot 2024-04-29 201003](https://github.com/AstikSharma/Graphic-lab/assets/132981717/131eeb4d-fd79-4808-86d1-4d08f9e26c66)
+)
+- **Canvas with Various Options**: ![Canvas Screenshot](![Screenshot 2024-04-29 201857](https://github.com/AstikSharma/Graphic-lab/assets/132981717/dcb9cbb5-1dbc-41ca-b3f0-0f7298ea81f5)
+)
+- **Undo Functionality**: ![Undo Screenshot](![Screenshot 2024-04-29 201159](https://github.com/AstikSharma/Graphic-lab/assets/132981717/72368617-12a6-471d-b14c-9b10a97087f3)
+) 
+- **Redo Functionality**:![Redo Screenshot](![Screenshot 2024-04-29 201236](https://github.com/AstikSharma/Graphic-lab/assets/132981717/2c1e8ca3-112e-4fc3-8aa5-20270e423691)
+)
+
 ## Getting Started
 
 To start using Graphic Lab, follow these steps:
 
 1. **Clone the repository**:
-
+```bash
 git clone <repository-url>
-
+```
 
 2. **Install dependencies**:
-
+```bash
 cd graphic-lab
 npm install
-
+```
 
 3. **Set up Clerk and Convex Keys**:
 Before running the application, obtain API keys for Clerk and Convex Database and set them up in your environment variables.
 
 4. **Run the application**:
-
+```bash
 npm run dev
-
+```
 
 Once the application is running, access it locally at [http://localhost:3000](http://localhost:3000).
 
